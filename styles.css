@@ -1,0 +1,104 @@
+/* DO NOT MODIFY THE CSS */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+li > a {
+    text-decoration: none;
+    color: black;
+}
+
+li > a:hover {
+    color: salmon;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: salmon;
+}
+
+.header > a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation {
+    background-color: #EBECF0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+}
+
+.navigation-content {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.writer {
+    text-align: center;
+}
+
+.navigation-header {
+    margin: 40px auto;
+    color: salmon;
+}
+
+.content {
+    margin-left: 350px;
+    margin-top: 40px;
+    margin-right: 50px;
+    width: 100%;
+}
+
+.content-header {
+    text-align: center;
+    margin-bottom: 8px;
+    color: salmon;
+}
+
+.section {
+    margin: 50px 0;
+}
+
+.section-header {
+    margin-bottom: 30px;
+    color: salmon;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* This class should be used with <div> tag */
+.center-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* This class should be used with <div> tag */
+.center-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
